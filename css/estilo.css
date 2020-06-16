@@ -1,0 +1,241 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/*Para Desktop*/
+header{
+	width: 100%;
+	background-color: gray ;
+	min-height: 120px;
+	border: 2px solid #000;
+}
+
+#zona2{
+	width: 20%;
+	min-height: 1760px;
+	float: left;
+	background-color: gray;
+	border: 2px solid #000;
+}
+	.zona2-elem{
+		background-color: white;
+		min-height: 60px;
+		width: 80%;
+		margin: 30px auto;
+	}
+#zonaDerecha{
+	width: 80%;
+	float: right;
+	min-height: 100%;
+}
+#zona3{
+	background-color: gray;
+	min-height: 400px;
+	border: 2px solid #000;
+}
+	figure{
+		background-color: white;
+		min-height: 360px;
+		margin: 20px auto;
+		width: 80%;
+	}
+#zona4{
+	background-color: gray;
+	min-height: 170px;
+	border: 2px solid #000;
+}
+	.zona4-elem{
+		background-color: white;
+		min-height: 120px;
+		width: 20%;
+		margin: 20px 10px;
+		float: left;
+	}
+	#zona4-1{
+		margin-left: 7.7%;
+	}
+#zona5{
+	background-color: gray;
+	border: 2px solid #000;
+	width: 80%;
+	float: left;
+}
+	.zona5-elem{
+		background-color: white;
+		min-height: 160px;
+		width: 40%;
+		margin: 20px 10px;
+		float: left;
+	}
+	#zona5-1, #zona5-3, #zona5-5, #zona5-7, #zona5-9{
+		margin-left: 9%;
+	}
+#zona6{
+	background-color: gray;
+	width: 20%;
+	min-height: 1004px;
+	float: right;
+	border: 2px solid #000;
+	
+}
+	.zona6-elem{
+		background-color: white;
+		min-height: 80px;
+		width: 80%;
+		margin: 30px auto;
+	}
+#zona7{
+	background-color: gray;
+	min-height: 100px;
+	border: 2px solid #000;
+	margin-top: 1003px;
+}
+	.zona7-elem{
+		background-color: white;
+		min-height: 60px;
+		width: 80%;
+		margin: 20px auto;
+}
+
+/*Para tablet*/
+@media screen and (min-width: 480px) and (max-width: 1279px){
+	#zona2
+	{
+		display: none;
+	}
+
+	#zona4{
+		background-color: gray;
+		min-height: 410px;
+		border: 2px solid #000;
+	}
+
+	.zona4-elem
+	{
+		background-color: white;
+		min-height: 160px;
+		width: 40%;
+		margin: 20px 10px;
+		float: left;
+	}
+
+	#zona4-1, #zona4-3
+	{
+		margin-left: 8.1%;
+	}
+
+	#zona5
+	{
+		min-height: 180px;
+		background-color: gray;
+		border: 2px solid #000;
+		width: 100%;
+		float: left;
+	}
+
+	.zona5-elem
+	{
+		background-color: white;
+		min-height: 100px;
+		width: 44%;
+		margin: 20px 10px;
+		float: left;
+	}
+	#zona5-7, #zona5-8, #zona5-9, #zona5-10
+	{
+		/*visibility: hidden;*/
+		display: none;
+
+	}
+
+	#zona5-1, #zona5-3, #zona5-5
+	{
+		margin-left:  4%;
+	}
+
+	#zonaDerecha
+	{
+		width: 100%;
+	}
+
+	#zona6
+
+	{
+		display: none;
+	}
+
+	#zonaCentral
+
+	{
+		width: 100%;
+	}
+
+	#zona7
+	{
+		margin-top: 420px;
+	}
+
+	#zona7-2
+	{
+		display: none;
+	}
+
+}
+
+/*Para Celular*/
+@media screen and (max-width: 479px)
+{
+	#zonaDerecha{
+		width: 100%;
+	}
+	#zona2{
+		display: none;
+	}
+	#zona3{
+		min-height: 250px;
+	}
+	figure{
+		min-height: 200px;
+	}
+	#zona4{
+		min-height: 330px;
+	}
+	.zona4-elem{
+		width: 35%;
+		margin: 20px 10px;
+		float: left;
+	}
+	#zona4-1, #zona4-3{
+		margin-left: 12%;
+	}
+	 #zona5-5, #zona5-6,#zona5-7, #zona5-8, #zona5-9, #zona5-10{
+	 	/*visibility: hidden;*/
+		display: none;
+	} 
+	#zonaFinal{
+		width: 100%;
+	}
+	#zona5{
+		width: 100%;
+	}
+	.zona5-elem{
+		background-color: white;
+		min-height: 70px;
+		width: 80%;
+		margin: 10px auto;;
+	}
+	#zona6{
+		display: none;
+	}
+	#zona5-1, #zona5-2, #zona5-3, #zona5-4{
+		margin-left: 10%;
+	}
+	#zona7{
+		margin-top: 350px;
+	}
+	#zona7-1{
+		margin-top: 30px;
+		min-height: 40px;
+	}
+	#zona7-2{
+		display: none;
+	}
+}
